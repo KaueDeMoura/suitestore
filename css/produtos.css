@@ -1,0 +1,167 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  /*background-color: #1f1f1f;*/
+
+}
+
+header {
+  align-items: center;
+  background-color: #6a65fe;
+  color: black;
+  text-decoration: none;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+header a {
+  color: black;
+  text-decoration: none;
+  font-size: 20px;
+  padding: 10px;
+  background-color: #6a65fe;
+}
+
+header a:hover{
+  color: white;
+  transition: 0.3s ;
+}
+
+
+header .header {
+  font-size: 30px;
+}
+
+.pagina {
+  display: flex;
+  justify-content: space-between;
+  /*background-color: #1f1f1f;*/
+
+}
+
+.separar {
+  width: 50%;
+  background-color: ce;
+}
+
+form {
+  max-width: 50%;
+  padding: 10px;
+  margin: 5px;
+  display: inline;
+  padding: 15px;
+}
+
+form select {
+  background-color: #f0f0f0;
+  padding: 5px;
+  width: 94%;
+  margin: 0px 0 0px 15px;
+  border-radius: 5px;
+  border-color: gray;
+}
+
+form input {
+  display: inline-flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  flex: 1;
+
+  background-color: #f0f0f0;
+  border-width: 1px;
+  padding: 5px;
+  margin: 15px 0 15px 0px;
+  border-radius: 5px;
+  width: 31%;
+  box-sizing: border-box;
+}
+
+.inputcs {
+  margin-left: 15px;
+}
+
+form button {
+  background-color: #6a65fe;
+  border: none;
+  font-size: 15px;
+  border-radius: 5px;
+  width: 94%;
+  height: 30px;
+  margin: 10px 0 0 14px;
+  display: inline;
+  font-weight: bold;
+}
+/*
+    background-color: #6a65fe;
+    border: none;
+    font-size: 15px;
+    border-radius: 5px;
+    width: 97%;
+    height: 30px;
+    margin-left: 15px;
+    display: inline;
+    font-weight: bold;
+    */
+
+.divisao {
+  background-color: black;
+  width: 1px;
+}
+
+.tabela {
+  max-width: 50%;
+  padding: 10px;
+  margin: 5px;
+  display: inline;
+}
+
+table {
+  padding: 10px;
+  width: 97%;
+  text-align: left;
+  border-collapse: collapse;
+  margin: 12px 0 0 13px;
+}
+
+th,
+td {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 3px;
+}
+
+table button {
+  background-color: #6a65fe;
+  border: none;
+  font-size: 15px;
+  border-radius: 5px;
+  width: 90%;
+  height: 25px;
+  margin-left: 5px;
+  display: inline;
+  font-weight: bold;
+}
+
+.errorMsg {
+  display: none;
+  color: red;
+  margin: 15px 0 5px 17px;
+}
+
+.cor {
+  color: white;
+}
+
+
+/* Dark Mode*/
+
+header button{
+  height: 25px;
+  width: 55px;
+}
+
+.dark-mode{
+    background-color: #1f1f1f;
+    color: wh;
+}

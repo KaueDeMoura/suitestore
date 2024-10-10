@@ -1,0 +1,214 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  background-color: #6a65fe;
+  color: black;
+  text-decoration: none;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+header a {
+  color: black;
+  text-decoration: none;
+  font-size: 20px;
+  padding: 10px;
+}
+
+header a:hover{
+  color: white;
+  transition: 0.3s ;
+}
+
+header .header {
+  font-size: 30px;
+}
+
+.tabela {
+  max-width: 50%;
+  padding: 10px;
+  margin: 5px;
+  display: inline;
+}
+
+table {
+  padding: 10px;
+  width: 60%;
+  text-align: left;
+  border-collapse: collapse;
+  margin: 0 0 0 13px;
+}
+
+th,
+td {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 3px;
+}
+
+table button {
+  background-color: #6a65fe;
+  border: none;
+  font-size: 15px;
+  border-radius: 5px;
+  width: 50%;
+  height: 25px;
+  margin-left: 25%;
+  display: inline;
+  font-weight: bold;
+  align-items: center;
+}
+
+tr {
+  width: 10px;
+}
+
+header {
+  background-color: #6a65fe;
+  color: black;
+  text-decoration: none;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+header a {
+  color: black;
+  text-decoration: none;
+  font-size: 20px;
+  padding: 10px;
+}
+header .header {
+  font-size: 30px;
+}
+
+.pagina {
+  display: flex;
+  justify-content: space-between;
+}
+
+form {
+  max-width: 50%;
+  padding: 10px;
+  margin: 5px;
+  display: inline;
+}
+
+form select {
+  background-color: #f0f0f0;
+  padding: 5px;
+  width: 96%;
+  margin: 15px 0 0px 0px;
+  border-radius: 5px;
+  border-color: gray;
+}
+
+form .qtde {
+  margin-left: 15px;
+  width: 41%;
+}
+
+form input {
+  display: inline-flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  flex: 1;
+
+  background-color: #f0f0f0;
+  border-width: 1px;
+  padding: 5px;
+  margin: 15px 0 15px 0px;
+  border-radius: 5px;
+  width: 27%;
+  box-sizing: border-box;
+}
+
+.divisao {
+  background-color: black;
+  width: 1px;
+}
+
+table {
+  padding: 10px;
+  width: 97%;
+  text-align: left;
+  border-collapse: collapse;
+  margin: 0 0 0 13px;
+}
+
+.infos {
+  display: block;
+  font-weight: bold;
+  padding: 10px;
+}
+
+.infos input {
+  background-color: white;
+  border: none;
+  width: 20%;
+  margin-left: 10px;
+}
+
+.infos label {
+  display: inline-block;
+  padding: 0px 0 10px 10px;
+}
+
+.thdata,
+.thtotal {
+  width: 20%;
+}
+.thacao {
+  text-align: center;
+  width: 15%;
+}
+.thid {
+  width: 5%;
+}
+
+.separar1 {
+  width: 40%;
+  background-color: ce;
+}
+
+.separar2 {
+  width: 60%;
+  background-color: ce;
+}
+
+.thproduto {
+  width: 20%;
+}
+
+.thpreco {
+  width: 17%;
+}
+
+.thquantidade {
+  width: 12%;
+}
+
+.thtaxa {
+  width: 22%;
+}
+.sumir {
+  display: contents;
+}
+
+h1 {
+  margin-left: 1.5vh;
+}
+
+.cor {
+  color: white;
+}
+
+.carrt{
+  display: flex;
+    align-items: center;
+}
+
+span{
+  margin-left: 6px;
+}
